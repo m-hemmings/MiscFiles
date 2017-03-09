@@ -1,0 +1,47 @@
+from fabric.api import env, run, put
+env.hosts = [
+  "northwestern.planet-ignite.net",
+    "gponode.planet-ignite.net",
+    "utah.planet-ignite.net",
+    "kansas.planet-ignite.net",
+    "case.planet-ignite.net",
+    "tamu.planet-ignite.net",
+    "starlight.planet-ignite.net",
+    "wvu.planet-ignite.net",
+  ]
+
+env.key_filename="./id_rsa"
+env.use_ssh_config = True
+env.ssh_config_path = './ssh-config'
+env.user = 'slice58'
+
+def pingtest():
+    run('ping -c 3 www.yahoo.com')
+
+def uptime():
+    run('uptime')
+
+def setup_ubuntu():
+    run('apt-get update; apt-get -y install openssh-client python git')
+
+def setup_centos_or_fedora21():
+    run('yum -y install openssh-clients')
+
+def setup_fedora22():
+    run('dnf -y install openssh-clients')
+
+def get_lively():
+    run('git clone https://github.com/LivelyKernel/LivelyKernel.git /var/www/LivelyKernel')
+    run('pip install supervisor')
+    run('mkdir -p /etc/supervisor/conf.d')
+    run('mkdir -p /var/log/supervisor')
+    run('curl https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/LivelyServer.conf > /etc/supervisor/conf.d/LivelyServer.conf')
+    run('curl https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/supervisord.conf > /etc/supervisor/supervisord.conf')
+    run('supervisord -c /etc/supervisor/supervisord.conf')
+    run('supervisorctl start LivelyServer')
+
+def restart_lively():
+    run('supervisorctl restart LivelyServer')
+
+def get_status():
+    run('pip install supervisor')
