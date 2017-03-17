@@ -45,3 +45,6 @@ def restart_lively():
 
 def get_status():
     run('supervisorctl status all')
+
+def get_viz():
+    run('curl https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/pollution_viz.html > /var/www/LivelyKernel/pollution_viz.html');
