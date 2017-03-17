@@ -44,4 +44,4 @@ def restart_lively():
     run('supervisorctl restart LivelyServer')
 
 def get_status():
-    run('pip install supervisor')
+    run('supervisorctl status all')
