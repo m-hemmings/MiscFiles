@@ -1,122 +1,212 @@
 [
  {
    "City": "Boston",
-   "Team": "Celtics"
+   "Team": "Celtics",
+   "group": "Celtics",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_BOS.png"
  },
  {
    "City": "Toronto",
-   "Team": "Raptors"
+   "Team": "Raptors",
+   "group": "Raptors",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_TOR.png"
  },
  {
    "City": "New York",
-   "Team": "Knicks"
+   "Team": "Knicks",
+   "group": "Knicks",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_NYK.png"
  },
  {
    "City": "Philadelphia",
-   "Team": "76ers"
+   "Team": "76ers",
+   "group": "76ers",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_PHI.png"
  },
  {
    "City": "Brooklyn",
-   "Team": "Nets"
+   "Team": "Nets",
+   "group": "Nets",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_BKN.png"
  },
  {
    "City": "Washington",
-   "Team": "Wizards"
+   "Team": "Wizards",
+   "group": "Wizards",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_WAS.png"
  },
  {
    "City": "Atlanta",
-   "Team": "Hawks"
+   "Team": "Hawks",
+   "group": "Hawks",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_ATL.png"
  },
  {
    "City": "Miami",
-   "Team": "Heat"
+   "Team": "Heat",
+   "group": "Heat",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_MIA.png"
  },
  {
    "City": "Charlotte",
-   "Team": "Hornets"
+   "Team": "Hornets",
+   "group": "Hornets",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_CHA.png"
  },
  {
    "City": "Orlando",
-   "Team": "Magic"
+   "Team": "Magic",
+   "group": "Magic",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_ORL.png"
  },
  {
    "City": "Cleveland",
-   "Team": "Cavaliers"
+   "Team": "Cavaliers",
+   "group": "Cavaliers",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_CLE.png"
  },
  {
    "City": "Milwaukee",
-   "Team": "Bucks"
+   "Team": "Bucks",
+   "group": "Bucks",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_MIL.png"
  },
  {
    "City": "Chicago",
-   "Team": "Bulls"
+   "Team": "Bulls",
+   "group": "Bulls",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_CHI.png"
  },
  {
    "City": "Indiana",
-   "Team": "Pacers"
+   "Team": "Pacers",
+   "group": "Pacers",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_IND.png"
  },
  {
    "City": "Detroit",
-   "Team": "Pistons"
+   "Team": "Pistons",
+   "group": "Pistons",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_DET.png"
  },
  {
    "City": "Utah",
-   "Team": "Jazz"
+   "Team": "Jazz",
+   "group": "Jazz",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_UTA.png"
  },
  {
    "City": "Oklahoma City",
-   "Team": "Thunder"
+   "Team": "Thunder",
+   "group": "Thunder",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_OKC.png"
  },
  {
    "City": "Portland",
-   "Team": "Trailblazers"
+   "Team": "Trailblazers",
+   "group": "Trailblazers",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_POR.png"
  },
  {
    "City": "Denver",
-   "Team": "Nuggets"
+   "Team": "Nuggets",
+   "group": "Nuggets",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_DEN.png"
  },
  {
    "City": "Minnesota",
-   "Team": "Timberwolves"
+   "Team": "Timberwolves",
+   "group": "Timberwolves",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_MIN.png"
  },
  {
    "City": "San Antonio",
-   "Team": "Spurs"
+   "Team": "Spurs",
+   "group": "Spurs",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_SAS.png"
  },
  {
    "City": "Houston",
-   "Team": "Rockets"
+   "Team": "Rockets",
+   "group": "Rockets",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_HOU.png"
  },
  {
    "City": "Memphis",
-   "Team": "Grizzlies"
+   "Team": "Grizzlies",
+   "group": "Grizzlies",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_MEM.png"
  },
  {
    "City": "New Orleans",
-   "Team": "Pelicans"
+   "Team": "Pelicans",
+   "group": "Pelicans",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_NOP.png"
  },
  {
    "City": "Dallas",
-   "Team": "Mavericks"
+   "Team": "Mavericks",
+   "group": "Mavericks",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_DAL.png"
  },
  {
    "City": "Golden State",
-   "Team": "Warriors"
+   "Team": "Warriors",
+   "group": "Warriors",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_GSW.png"
  },
  {
    "City": "Los Angeles",
-   "Team": "Clippers"
+   "Team": "Clippers",
+   "group": "Clippers",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_LAC.png"
  },
  {
    "City": "Sacramento",
-   "Team": "Kings"
+   "Team": "Kings",
+   "group": "Kings",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_SAC.png"
  },
  {
    "City": "Los Angeles",
-   "Team": "Lakers"
+   "Team": "Lakers",
+   "group": "Lakers",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_LAL.png"
  },
  {
    "City": "Phoenix",
-   "Team": "Suns"
+   "Team": "Suns",
+   "group": "Suns",
+   "shape": "image",
+   "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_PHX.png"
  }
 ]
