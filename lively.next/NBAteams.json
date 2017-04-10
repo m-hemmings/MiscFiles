@@ -5,7 +5,8 @@
    "group": "Celtics",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_BOS.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "Toronto",
@@ -13,7 +14,8 @@
    "group": "Raptors",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_TOR.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "New York",
@@ -21,7 +23,8 @@
    "group": "Knicks",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_NYK.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "Philadelphia",
@@ -29,7 +32,8 @@
    "group": "76ers",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_PHI.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "Brooklyn",
@@ -37,7 +41,8 @@
    "group": "Nets",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_BKN.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "Washington",
@@ -45,7 +50,8 @@
    "group": "Wizards",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_WAS.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "Atlanta",
@@ -53,7 +59,8 @@
    "group": "Hawks",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_ATL.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "Miami",
@@ -61,7 +68,8 @@
    "group": "Heat",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_MIA.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "Charlotte",
@@ -69,7 +77,8 @@
    "group": "Hornets",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_CHA.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "Orlando",
@@ -77,7 +86,8 @@
    "group": "Magic",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_ORL.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "Cleveland",
@@ -85,7 +95,8 @@
    "group": "Cavaliers",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_CLE.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "Milwaukee",
@@ -93,7 +104,8 @@
    "group": "Bucks",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_MIL.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "Chicago",
@@ -101,7 +113,8 @@
    "group": "Bulls",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_CHI.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "Indiana",
@@ -109,7 +122,8 @@
    "group": "Pacers",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_IND.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "Detroit",
@@ -117,7 +131,8 @@
    "group": "Pistons",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_DET.png",
-   "conference": "Eastern"
+   "conference": "Eastern",
+   "League": "NBA"
  },
  {
    "City": "Utah",
@@ -125,7 +140,8 @@
    "group": "Jazz",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_UTA.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  },
  {
    "City": "Oklahoma City",
@@ -133,7 +149,8 @@
    "group": "Thunder",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_OKC.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  },
  {
    "City": "Portland",
@@ -141,7 +158,8 @@
    "group": "Trailblazers",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_POR.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  },
  {
    "City": "Denver",
@@ -149,7 +167,8 @@
    "group": "Nuggets",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_DEN.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  },
  {
    "City": "Minnesota",
@@ -157,7 +176,8 @@
    "group": "Timberwolves",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_MIN.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  },
  {
    "City": "San Antonio",
@@ -165,7 +185,8 @@
    "group": "Spurs",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_SAS.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  },
  {
    "City": "Houston",
@@ -173,7 +194,8 @@
    "group": "Rockets",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_HOU.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  },
  {
    "City": "Memphis",
@@ -181,7 +203,8 @@
    "group": "Grizzlies",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_MEM.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  },
  {
    "City": "New Orleans",
@@ -189,7 +212,8 @@
    "group": "Pelicans",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_NOP.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  },
  {
    "City": "Dallas",
@@ -197,7 +221,8 @@
    "group": "Mavericks",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_DAL.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  },
  {
    "City": "Golden State",
@@ -205,7 +230,8 @@
    "group": "Warriors",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_GSW.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  },
  {
    "City": "Los Angeles",
@@ -213,7 +239,8 @@
    "group": "Clippers",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_LAC.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  },
  {
    "City": "Sacramento",
@@ -221,7 +248,8 @@
    "group": "Kings",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_SAC.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  },
  {
    "City": "Los Angeles",
@@ -229,7 +257,8 @@
    "group": "Lakers",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_LAL.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  },
  {
    "City": "Phoenix",
@@ -237,6 +266,7 @@
    "group": "Suns",
    "shape": "image",
    "image": "http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/jazz/JAZ1617_300x300_NBALogos_PHX.png",
-   "conference": "Western"
+   "conference": "Western",
+   "League": "NBA"
  }
 ]
