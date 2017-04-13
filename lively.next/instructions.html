@@ -4,29 +4,36 @@
 body {
     font: 80% Lucida Sans, Verdana;
     margin: 20px;
-    line-height: 26px;
+    /*line-height: 26px;*/
   }
 
 
-#top {
+#top {}
+.headings{
     color: #000000;
     padding: 15px;
-    font-size: 100%;
-    line-height: 26px;    
+    font-size: 120%;
+    line-height: 16px;    
+}
+.bodyText{
+    color: #000000;
+    padding: 15px;
+    font-size: 80%;
+    line-height: 14px;       
 }
 
 table
 
 #listeners table,th,tr, td{
     border: 1px solid black;    
-    font: 100% Lucida Sans, Verdana;
+    font: 80% Lucida Sans, Verdana;
 }
     th,tr{
     color: black;
     background-color: LightGrey;
 }
  th {
-    font: 100% ;
+    font: 80% ;
     font-weight: bold
  }
  tr {
@@ -36,8 +43,10 @@ table
 </style>
 </head>
 <body>    
-<div id="top">
-    <h1>Instructions for NBA Visualization</h1>
+<div class="headings">
+    <b>Instructions for NBA Visualization</b>
+</div>
+<div class="bodyText">
     <p>The intent of this project is to show how it is possible to easily create a meaningful visualization using the <A HREF="http://visjs.org/">vis.js</A> library.
     <p>This visualization contains the following: 
     <ul>
@@ -77,32 +86,45 @@ table
   </tr>
   <tr>
     <td>Hover</td>
-    <td></td>
+    <td>Currently displays tooltip mounted in upper left corner.  Setup for tooltip can be found in setTTStyle method on the html canvas morph</td>
   </tr>
   <tr>
     <td>Blur</td>
-    <td></td>
+    <td>Currently set to remove the last active tooltip</td>
   </tr>
   <tr>
     <td>Right Click</td>
-    <td></td>
+    <td>Not bound</td>
   </tr>
   <tr>
     <td>Drag Start</td>
-    <td></td>
+    <td>Not bound</td>
   </tr>
   <tr>
     <td>Drag</td>
-    <td></td>
+    <td>Not bound</td>
   </tr>
   <tr>
     <td>Drag End</td>
-    <td></td>
+    <td>Not bound</td>
   </tr>
 </table>
-        
-
     </p>
-  </div>
+    
+    </div>
+    <div class="headings">
+        <b>Morphic Interactions</b>    
+    </div>
+    <div class="bodyText">
+    <p>
+        There are 3 buttons on the bottom of the window, 2 for edge interactions and one for help.
+    </p>
+    <p>
+    <h3>Add Edges</h3>
+        To add an edge, click the "Add Edge" button.  This will enter edit mode, where you can click on a source node and drag the edge to the target.  In the event that you attempt to draw an edge to a cluster, it will fail but provide a popup indicating that the error has occurred.  In addition, a cancel button appears in the upper right corner, presenting an option to exit without creating an edge, should you so desire.<BR>
+    <h3>Edit Edges</h3>
+        When you click the "Edit Edge" button, you must first have an edge selected.  Doing so will then open the control points for the edge, either of which can be dragged to a new node.  Again, dragging the edge to a cluster will fail with an alert and you are able to cancel the edit behavior in the same sense that you can cancel an add operation above.
+    </p>
+    </div>
 </body>
 </HTML>
