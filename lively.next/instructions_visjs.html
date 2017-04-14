@@ -47,14 +47,9 @@ table
     <b>Instructions for VisJS Morph</b>
 </div>
 <div class="bodyText">
-    <p>The intent of this project is to show how it is possible to easily create a meaningful visualization using the <A HREF="http://visjs.org/">vis.js</A> library.
+    <p>This is a category visualization template ready for editing with any data you need to create a compelling and manipulatable data set.
     <p>This visualization contains the following: 
-    <ul>
-        <li>One node for each player (contains their statistics in various properties)</li>
-        <li>One node for each team, divided by Western and Eastern Conference</li>
-        <li>One node for each conference, attached to the league node</li>
-        <li>One node for the league</li>
-    </ul>
+        To add data to the visualization, there is a method on the canvas morph called getData and it contains a few sample nodes and edges.  This is where your source data can be added if you want it visible on load.  As of this version, there is no persistent stored data.  This will be updated soon, but for now, I suggest an external data source.
     </p>
     <p>The following listeners exist for this <A HREF="http://visjs.org/">vis.js</A> morph:
     <table id ="listeners" style="table-layout: fixed; width: auto">
@@ -69,10 +64,8 @@ table
   </tr>
   <tr>
     <td>Double Click</td>
-    <td><ul>
-    <li>If used on a node that is a cluster container of other nodes, it will expand/collapse</</li>
-    <li>If used on a player node, it will open an editor in which the various values can be edited by the user</li>
-    </ul>
+    <td>
+    If used on a node that is a cluster container of other nodes, it will expand/collapse.  Note that a node with no other members of the same group will not collapse.
     </td>
   </tr>
   <tr>
@@ -128,18 +121,6 @@ table
     <h3>Example of Morphic Interactions</h3>
     <video width="320" height="240" controls>
     <source src="https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/lively.next/media/lively.morphic_example_edge_manipulation.mp4" type="video/mp4">
-    </video>
-    </div>
-    <div class="headings">
-        <b>Editing Nodes</b>
-    </div>
-    <div class="bodyText">
-        <p>
-            To edit a node, you can double click on it.  This will read all the properties on the node and display them in a popup morph.  Any fields you edit in this fashion will not be saved until you click the save button on that popup.  If you close the window without saving, changes will be discarded.
-        </p>
-    <h3>Example of Morphic Interactions</h3>
-    <video width="320" height="240" controls>
-        <source src="https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/lively.next/media/lively.morphic_example_edit_node.mp4" type="video/mp4">
     </video>
     </div>
 </body>
