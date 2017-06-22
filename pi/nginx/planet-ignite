@@ -7,6 +7,6 @@ server {
   include /users/mhemming/*.pi;
   #location / {
     #Instead of a server at root, a redirect exists to forward user to project main page
-    rewrite ^/$ http://gee-project.org/ permanent;
+    rewrite ^/$ http://planet-ignite.org/ permanent;
   #}
 }
