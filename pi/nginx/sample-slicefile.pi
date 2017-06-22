@@ -1,0 +1,10 @@
+server_name matt;
+  location /matt/ {
+    #this will need to be adjusted for the port the user is using
+    proxy_pass http://127.0.0.1:8080/;
+      #does the user want any specicif request headers? you can turn them off/on here
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Connection "upgrade";      
+      proxy_pass_request_headers on;
+  }
