@@ -1,3 +1,4 @@
+#to be placed in directory where *.pi is searched for in the planet-ignite file
 server_name matt;
   location /matt/ {
     #this will need to be adjusted for the port the user is using
