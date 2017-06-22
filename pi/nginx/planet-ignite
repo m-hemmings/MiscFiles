@@ -5,7 +5,8 @@ server {
   listen 80;
   #replace this following line with location of files to be created automatically
   include /users/mhemming/*.pi;
-  location / {
-    try_files $uri $uri/ =404;
-  }
+  #location / {
+    #Instead of a server at root, a redirect exists to forward user to project main page
+    rewrite ^/$ http://gee-project.org/ permanent;
+  #}
 }
