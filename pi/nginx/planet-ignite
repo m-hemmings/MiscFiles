@@ -1,0 +1,11 @@
+# nginx base config file to redirect to user locations
+# To be placed in /etc/nginx/sites-enabled/
+
+server {
+  listen 80;
+  #replace this following line with location of files to be created automatically
+  include /users/mhemming/*.pi;
+  location / {
+    try_files $uri $uri/ =404;
+  }
+}
