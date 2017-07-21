@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install -y curl wget software-properties-common
+sudo apt-get update && sudo apt-get install -y curl wget software-properties-common
 wget https://www.virtualbox.org/download/oracle_vbox_2016.asc
 sudo sh -c "echo 'deb http://download.virtualbox.org/virtualbox/debian xenial contrib' >> /etc/apt/sources.list"
 sudo apt-key add ./oracle_vbox_2016.asc
