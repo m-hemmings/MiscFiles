@@ -33,10 +33,10 @@ minikube start
 eval $(minikube docker-env)
 
 #build docker container in minikube
-docker build -t hello-node:v1 .
+sudo docker build -t hello-node:v1 .
 
 #create minikube deployment
-kubectl run hello-node --image=hello-node:v1 --port:8080
+kubectl run hello-node --image=hello-node:v1 --port=8080
 
 #create a service
 kubectl expose deployment hello-node --type=LoadBalancer
