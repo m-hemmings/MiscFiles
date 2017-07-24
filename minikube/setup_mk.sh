@@ -12,9 +12,6 @@ sudo apt-key add ./oracle_vbox_2016.asc
 sudo apt-get update
 sudo apt-get install -y virtualbox-5.1
 
-#instantiate vbox ifconfig settings
-sudo ifconfig vboxnet0 up
-
 #get minikube and kubectl
 curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl && sudo chmod +x kubectl && sudo mv kubectl /usr/local/bin/
 
@@ -28,6 +25,9 @@ wget https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/minikube/Dock
 
 #start minikube
 minikube start
+
+#instantiate vbox ifconfig settings
+sudo ifconfig vboxnet0 up
 
 #Set docker context to minikube.  To teardown: eval $(minikube docker-env -u)
 eval $(minikube docker-env)
