@@ -41,7 +41,19 @@ kubectl run hello-node --image=hello-node:v1 --port:8080
 #create a service
 kubectl expose deployment hello-node --type=LoadBalancer
 
-#To view contents, launch browser:
-#minikube service hello-node
+
+printf "\nSetup complete:\n"
+printf "To view contents, launch browser:\n"
+printf "minikube service hello-node\n"
+printf "\n"
+printf "To update, change contents of server.js, rebuild docker container and assign new image to service (example):\n"
+printf "docker build -t hello-node:v2 ."
+printf "kubectl set image deployment/hello-node hello-node=hello-node:v2\n"
+printf "\n"
+printf "To tear down:\n"
+printf "eval \$(minikube docker-env -u)\n"
+printf "kubectl delete service hello-node\n"
+printf "kubectl delete deployment hello-node\n"
+printf "minikube stop"
 
  
