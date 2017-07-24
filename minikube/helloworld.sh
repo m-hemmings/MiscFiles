@@ -13,7 +13,7 @@ sudo ifconfig vboxnet0 up
 eval $(minikube docker-env)
 
 #build docker container in minikube
-sudo docker build -f $(pwd)/hellonode/Dockerfile -t hello-node:v1 .
+(cd hellonode && sudo docker build -t hello-node:v1 .)
 
 #create minikube deployment
 kubectl run hello-node --image=hello-node:v1 --port=8080
