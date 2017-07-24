@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# URL can be found by running minikube service <service-name> --url and passing the result as an argument to this script
+#
 
 if [ $# -eq 0 ]
   then printf "No arguments supplied, please provide minikube address"
@@ -18,7 +21,7 @@ server {
   location /minikube/ {
     proxy_pass $1;
     proxy_http_version 1.1;
-      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Upgrade \$http_upgrade;
       proxy_set_header Connection "upgrade";      
       proxy_pass_request_headers on;
   }
