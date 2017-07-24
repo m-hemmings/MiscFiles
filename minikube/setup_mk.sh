@@ -18,10 +18,9 @@ curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s htt
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.20.0/minikube-linux-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
 
 #set up environment for minikube test
-mkdir ./hellonode
-cd hellonode
-wget https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/minikube/server.js
-wget https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/minikube/Dockerfile
+mkdir hellonode
+curl https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/minikube/server.js > $(pwd)/hellonode/server.js
+curl https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/minikube/Dockerfile > $(pwd)/hellonode/Dockerfile
 
 #start minikube
 minikube start
@@ -33,7 +32,7 @@ sudo ifconfig vboxnet0 up
 eval $(minikube docker-env)
 
 #build docker container in minikube
-sudo docker build -t hello-node:v1 .
+sudo docker build -f $(pwd)/hellonode/Dockerfile -t hello-node:v1 .
 
 #create minikube deployment
 kubectl run hello-node --image=hello-node:v1 --port=8080
