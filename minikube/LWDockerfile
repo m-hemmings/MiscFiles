@@ -1,0 +1,15 @@
+FROM deitrus/scipyflasknode
+
+RUN git clone https://github.com/LivelyKernel/LivelyKernel.git /var/www/LivelyKernel
+RUN pip install supervisor
+RUN mkdir -p /etc/supervisor/conf.d
+RUN mkdir -p /var/log/supervisor
+
+ADD https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/LivelyServer.conf /etc/supervisor/conf.d/
+ADD https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/supervisord.conf /etc/supervisor/
+
+EXPOSE 8080
+
+WORKDIR /var/www/LivelyKernel
+
+CMD ["supervisord","-c", "/etc/supervisor/supervisord.conf"]
