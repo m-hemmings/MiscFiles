@@ -4,7 +4,7 @@
 mkdir hellonode
 curl https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/minikube/server.js > $(pwd)/hellonode/server.js
 curl https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/minikube/Dockerfile > $(pwd)/hellonode/Dockerfile
-curl https://github.com/m-hemmings/MiscFiles/blob/master/minikube/nginx/makeConfig.sh > $(pwd)/hellonode/makeConfig.sh
+curl https://raw.githubusercontent.com/m-hemmings/MiscFiles/master/minikube/nginx/makeConfig.sh > $(pwd)/hellonode/makeConfig.sh
 
 #start minikube
 minikube start
