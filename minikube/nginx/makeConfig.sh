@@ -13,8 +13,8 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-url=$(awk -F/ '{print $NF}' | cut -d ":" -f1)
-port=$(awk -F/ '{print $NF}' | cut -d ":" -f2)
+url=$(echo $1 | awk -F/ '{print $NF}' | cut -d ":" -f1)
+port=$(echo $1 | wk -F/ '{print $NF}' | cut -d ":" -f2)
 
 echo "# nginx base config file to redirect to minikube location
 # To be placed in /etc/nginx/sites-enabled/
