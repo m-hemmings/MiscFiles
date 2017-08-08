@@ -25,6 +25,9 @@ server {
       proxy_set_header Connection "upgrade";      
       proxy_pass_request_headers on;
   }
+  location / {
+    proxy_pass $(minikube dashboard --url);
+  }
 }" > /etc/nginx/sites-enabled/minikube.conf
 
 
