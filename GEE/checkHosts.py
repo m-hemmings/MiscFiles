@@ -2,6 +2,7 @@
 import sys
 import io
 import os
+import subprocess
 from pprint import pprint
 
 
@@ -18,11 +19,15 @@ def ScanHosts(hostfile):
 
   for line in hostfile:
     host = line.strip('\n')
-    resp = os.system("ping -c 1 " + host)
-    if resp == 0:
-      goodHosts.append(host)
-    else:
-      badHosts.append(host)
+    with open(os.devnull, 'w') as DEVNULL:
+      try:
+        subprocess.check_call(
+          ['ping','-c','1',host],
+          stdout=DEVNULL,stderr=DEVNULL #to suppress output
+        )
+        goodHosts.append(host)
+      except subprocess.CalledProcessError:
+        badHosts.append(host)
   return HostObject(goodHosts,badHosts)
 
 def main(argv):
@@ -34,7 +39,10 @@ def main(argv):
       return None
     else:
       raise
-  pprint(vars(ScanHosts(fd)))
+  result = ScanHosts(fd)
+  #DEBUG PRINT
+  pprint(vars(result))
+  return result
 
 if __name__ == "__main__":
   main(sys.argv)
