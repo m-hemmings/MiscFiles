@@ -1,0 +1,5 @@
+http://www.google.ca
+http://uvic.planet-ignite.net
+http://stanford.planet-ignite.net
+http://ucla.planet-ignite.net
+http://this.will.not.work.for.sure.because.I.made.it.up.and.tested.com
