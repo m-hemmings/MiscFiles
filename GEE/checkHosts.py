@@ -1,9 +1,9 @@
 #!/usr/bin/python
 import sys
 import io
+import os
 from pprint import pprint
-import ping
-import socket
+
 
 class HostObject(object):
   goodHosts = []
@@ -18,11 +18,10 @@ def ScanHosts(hostfile):
 
   for line in hostfile:
     host = line.strip('\n')
-    try:
-      result = ping.do_one(host,1000,32)
+    resp = os.system("ping -c 1 " + host)
+    if resp == 0:
       goodHosts.append(host)
-    except socket.error,e:
-      print(e)
+    else:
       badHosts.append(host)
   return HostObject(goodHosts,badHosts)
 
