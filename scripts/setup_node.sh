@@ -1,8 +1,7 @@
 #!/bin/bash
-USERID=id -u
-if [ "$USERID" -ne 0 ]
-  then  echo "Script requires to be run as root"
-  exit
+if [[ $EUID -ne 0 ]]; then
+   echo "This script must be run as root" 
+   exit 1
 fi
 
 apt-get update && apt-get install -y apt-transport-https -y
