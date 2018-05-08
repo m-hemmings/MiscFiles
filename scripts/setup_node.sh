@@ -12,4 +12,5 @@ EOF
 apt-get update 
 apt-get install docker.io kubelet kubeadm kubectl kubernetes-cni -y
 SECRET = curl -k https://head.sundewproject.org:8181/get_secret
+swapoff -a
 kubeadm join 142.104.71.105:6443 --token $SECRET --discovery-token-ca-cert-hash sha256:4d4d2122e5fff8cb29fc6c628b4ac0a4ceeea6fbb8243b95d1d37a1a05190730
